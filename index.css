@@ -1,7 +1,7 @@
 /*small devices (tablets) */
 @media screen and (min-width: 576px)
-/* css rules */ 
-{
+/* css rules */ {}
+
     .attribute{
       height: 30;
       width: 25px;
@@ -10,6 +10,13 @@
       text-align: right;
       padding-left: 4px;
  
+  }
+  h2{
+    font-size: 18px;
+  }
+  .plus{
+    width: 100%;
+    height: 20%;
   }
 
 
