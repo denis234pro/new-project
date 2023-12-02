@@ -1,6 +1,6 @@
 *{
-  font-size: 18px;
-  color: grey;
+ 
+ 
   margin-left: 30px;
   margin-right: 50px;
 
@@ -9,10 +9,14 @@
 
 }
 body{
-  margin: 2px;
+ 
   padding: 0px;
   font-family: sans-serif;
-}
+  color: grey;
+  font-size: 18px;
+}  
+
+
 
 
 
@@ -80,9 +84,10 @@ button{
   font-size: 0.875rem;
  }
  div.people{
-  height: 300px;
+  height:  300px;
   width: 100%;
   display: flex;
+  margin: 0px;
   
  }
  
@@ -154,7 +159,7 @@ input [type='checkbox']{
   color: white;
   float: right;
   width: 100%;
-  padding-right: 30px;
+  
 
 }
 
@@ -169,7 +174,7 @@ input [type='checkbox']{
 }
 
 .food a:hover{
-  padding: 5px;
+ margin-right: 0px;
   background-color: white;
   transition: background-color 0.3s ease;
 
