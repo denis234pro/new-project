@@ -1,4 +1,40 @@
-*{
+/*small devices (tablets) */
+@media screen and (min-width: 576px)
+/* css rules */ 
+{
+    .attribute{
+      height: 30;
+      width: 25px;
+      padding-bottom: 0px;
+      border-radius: 50px;
+      text-align: right;
+      padding-left: 4px;
+ 
+  }
+
+
+
+/* medium devices (laptops) */
+  @media screen and (min-width: 760px) {
+    /* css rules */
+
+  }
+
+/* large devices (desktps) */
+ @media screen and (min-width: 992px) 
+ /* css rules */
+{
+
+ }
+
+/* extra large devices (large desktops) */
+@media screen and (min-width: 1200px)
+/* css rules */ {
+  
+}
+
+
+/*{
   font-size: 18px;
   color: grey;
   margin-left: 30px;
@@ -181,4 +217,5 @@ input [type='checkbox']{
 .food ol li{
   display: inline;
   margin-right: 0px;
-}
+
+  
