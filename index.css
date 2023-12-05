@@ -1,4 +1,47 @@
-*{
+/*small devices (tablets) */
+@media screen and (min-width: 576px)
+/* css rules */ {}
+
+    .attribute{
+      height: 30;
+      width: 25px;
+      padding-bottom: 0px;
+      border-radius: 50px;
+      text-align: right;
+      padding-left: 4px;
+ 
+  }
+  h2{
+    font-size: 18px;
+  }
+  .plus{
+    width: 100%;
+    height: 20%;
+  }
+
+
+
+/* medium devices (laptops) */
+  @media screen and (min-width: 760px) {
+    /* css rules */
+
+  }
+
+/* large devices (desktps) */
+ @media screen and (min-width: 992px) 
+ /* css rules */
+{
+
+ }
+
+/* extra large devices (large desktops) */
+@media screen and (min-width: 1200px)
+/* css rules */ {
+  
+}
+
+
+/*{
   font-size: 18px;
   color: grey;
   margin-left: 30px;
@@ -83,7 +126,7 @@ button{
   height: 300px;
   width: 100%;
   display: flex;
-  max-width: 1200px;
+  
  }
  
  h2{
@@ -182,5 +225,10 @@ input [type='checkbox']{
 .food ol li{
   display: inline;
   margin-right: 0px;
+<<<<<<< HEAD
   flex-direction: row-reverse;
 }
+=======
+
+  
+>>>>>>> 48c75602976a566bc96c243c8f80f52389473ff8
