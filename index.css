@@ -1,16 +1,179 @@
 /*small devices (tablets) */
 @media screen and (min-width: 576px)
-/* css rules */ {}
-
-    .attribute{
-      height: 30;
-      width: 25px;
-      padding-bottom: 0px;
-      border-radius: 50px;
-      text-align: right;
-      padding-left: 4px;
- 
+/* css rules */ {
+}
+  
+  body{
+    background-color: white;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: gray;
+    margin-left: 1px;
   }
+  
+  .brush img{
+    width: 100%;
+    height: 10px;
+  }
+
+h2{
+  font-size: 16px;
+}
+
+h1{
+  font-size: 18px;
+}
+
+
+  .attribute{
+    height: 30;
+    width: 25px;
+    padding-bottom: 0px;
+    border-radius: 50px;
+    text-align: right;
+    padding-left: 4px;
+  }
+
+
+  input{
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+
+
+#application input {
+  padding: 10px;
+}
+
+
+  #checkbox{
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+  }
+
+  .plus img{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+  }
+  .people img{
+    width: 100%;
+    height: 120px;
+  }
+  #application{
+    margin: 20px;
+    padding-top: 10px;
+    margin-right: 10px;
+  }
+  
+.for-space , select{
+  font-family: roboto;
+  font-size: 12px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+ul li {
+  display: block;
+  font-family: sans-serif;
+  padding: 10px;
+  
+ }
+
+
+  .food {
+    background-color: #123b02;
+    color: white;
+    width: 100%;
+    margin-right: 3px;
+    height: 50px;
+    margin-top: 0px;
+  
+  }
+
+  label{
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+
+
+  footer{
+    text-align: center;
+    color: gray;
+    font-size: 0.875rem;
+    text-transform: lowercase;
+   }
+
+
+  .food ol li{ 
+    margin: 0px;
+    padding: 5px;
+    padding-bottom: 2px;
+    
+  }
+
+  button{
+
+    border-radius: 5px;
+    background-color: darkgreen;
+  }
+
+
+.links{
+  padding-right: 8px;
+}
+
+.blood{
+ 
+  color: black;
+}
+button a:hover{
+ color: white;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+  padding-bottom: 2px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+  .food a:hover{
+    padding: 5px;
+    background-color: tomato;
+    color: white;
+    transition: background-color 0.01s ease;
+  
+  }
+
+
+  .dash{
+    background-color: darkgreen;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    float: left;
+  }
+
+
+  .food ol li{
+
+    margin: 0px;
+    padding-top: 8px;
+    display: inline-block;
+  
+  }
+  
+  .brush{
+    width: 20px;
+    height: 20px;
+    padding-right: 3px;
+  }
+
+  
   h2{
     font-size: 18px;
   }
@@ -25,6 +188,198 @@
   @media screen and (min-width: 760px) {
     /* css rules */
 
+/*
+
+
+*{
+  font-size: 18px;
+  color: grey;
+  margin-left: 30px;
+  margin-right: 50px;
+}
+
+
+body{
+  margin: 2px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+
+
+a{
+  text-decoration: none;
+  color: gray;
+  transition: color 0.3s ease;
+
+}
+a:hover{
+  color: gray;
+  transition: background-color 0.3s ease;
+}
+h1{
+  text-align: center;
+  color: black;
+  font-size: 28px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+ul li{
+  font-size: 14px;
+  color: indigo;
+  margin: 35px;
+  display: flex;
+}
+img{
+  margin-left: 0px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.menu{
+  margin-left: 0px;
+  float: right;
+  width: auto;
+}
+li{
+  display: flex;
+}
+#read{
+  max-width: 800px;
+
+}
+.navbar {
+  display: inline;
+}
+div a{
+  float: right;
+}
+
+
+button{
+  float: right;
+  border-radius: 8px;
+}
+.plus img{
+  float: right;
+}
+ ul li {
+  display: inline-block;
+  font-family: sans-serif;
+  
+ }
+ footer{
+  text-align: center;
+  color: gray;
+  font-size: 0.875rem;
+ }
+ div.people{
+  height: 300px;
+  width: 100%;
+  display: flex;
+  
+ }
+ 
+ h2{
+  color: black;
+ }
+ a{
+  color: black;
+ }
+
+
+ select option{
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  padding: 3px;
+}
+.for-space , select{
+  font-family: roboto;
+  font-size: 12px;
+  padding: 8px;
+  margin-left: 10px;
+}
+label{
+  font-weight: bold;
+  font-size: 14px;
+}
+#application input {
+  padding: 6px;
+}
+.dash{
+  background-color: darkgreen;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  float: left;
+}
+
+input{
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+input [type='checkbox']{
+  width: 10px;
+  height: 5px;
+}
+#checkbox{
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+}
+.brush{
+  width: 40px;
+  height: 40px;
+}
+.label{
+  font-size: 18px;
+  font-style: italic;
+}
+.food ol li{ 
+  margin: 0px;
+  padding-top: 8px;
+  padding-bottom: 30px;
+  display: inline-flex;
+}
+
+
+
+.food {
+  background-color: LIGHTBLUE;
+  color: white;
+  float: right;
+  width: 100%;
+  padding-right: 30px;
+  display: block;
+
+}
+
+.attribute{
+  height: 30;
+  width: 25px;
+  padding-bottom: 0px;
+  border-radius: 50px;
+  text-align: right;
+  padding-left: 4px;
+}
+
+.food a:hover{
+  padding: 5px;
+  background-color: white;
+  transition: background-color 0.01s ease;
+
+}
+.mode{
+  background-color: black;
+}
+
+.food ol li{
+  display: inline;
+  margin-right: 0px;
+}
   }
 
 /* large devices (desktps) */
@@ -183,14 +538,11 @@ input [type='checkbox']{
   font-size: 18px;
   font-style: italic;
 }
-.food ol li{
-
-  
+.food ol li{ 
   margin: 0px;
   padding-top: 8px;
   padding-bottom: 30px;
   display: inline-flex;
-
 }
 .food {
   background-color: LIGHTBLUE;
@@ -209,7 +561,6 @@ input [type='checkbox']{
   border-radius: 50px;
   text-align: right;
   padding-left: 4px;
- 
 }
 
 .food a:hover{
@@ -232,3 +583,4 @@ input [type='checkbox']{
 
   
 >>>>>>> 48c75602976a566bc96c243c8f80f52389473ff8
+git 
